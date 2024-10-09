@@ -1,0 +1,25 @@
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #000000;
+  line-height: 1.8;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-1 {
+  background-image: url('Luzon\ bg\ food.jpg');
+  min-height: 100%;
+  transition: 1s;
+}
+
+.bgimg-2 {
+  background-image: url("potential.jpg");
+  min-height: 400px;
+}
